@@ -5,7 +5,7 @@ body {
     align-items: center;
     margin: 0;
     padding: 20px;
-    background-color: #f0f8ff;
+    background-color: #bff3db;
 }
 
 h1 {
@@ -32,17 +32,17 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #0ac713;
 }
 
-#weather {
+#weather, #forecast, #hourly {
     margin-top: 20px;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 40px;
     width: 300px;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(216, 15, 15, 0.1);
 }
 
 h2 {
@@ -50,6 +50,30 @@ h2 {
     font-size: 1.5em;
 }
 
+h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
 p {
     margin: 5px 0;
 }
+
+.forecast-day, .forecast-hour {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.forecast-day img, .forecast-hour img {
+    width: 50px;
+    height: 50px;
+}
+.column {
+    float: left;
+    width: 50%;
+    margin: 10px;
+  }
+  .row:after {
+    display: table;
+  }
+  
